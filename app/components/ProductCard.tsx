@@ -4,7 +4,7 @@ import AddToCart from "./AddToCart";
 const ProductCard = () => {
   return (
     <div>
-      <AddToCart />
+      <button onCLick={() => console.log('Click')}>Add to Cart</button>
     </div>
   );
 };
